@@ -1,0 +1,38 @@
+{
+  "name": "clean-query",
+  "version": "0.0.0",
+  "description": "Remove empty values from an object and serialize to a query string",
+  "license": "MIT",
+  "repository": "gillstrom/clean-query",
+  "author": {
+    "name": "Andreas Gillström",
+    "email": "andreasgillstrom@gmail.com",
+    "url": "github.com/gillstrom"
+  },
+  "engines": {
+    "node": ">=0.10.0"
+  },
+  "scripts": {
+    "test": "xo && ava"
+  },
+  "files": [
+    "index.js"
+  ],
+  "keywords": [
+    "clean",
+    "empty",
+    "obj",
+    "object",
+    "query",
+    "serialize",
+    "string",
+    "values"
+  ],
+  "dependencies": {
+    "condense-keys": "^1.1.0"
+  },
+  "devDependencies": {
+    "ava": "^0.2.0",
+    "xo": "*"
+  }
+}
