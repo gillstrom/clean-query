@@ -1,6 +1,6 @@
 {
   "name": "clean-query",
-  "version": "0.0.0",
+  "version": "1.0.0",
   "description": "Remove empty values from an object and serialize to a query string",
   "license": "MIT",
   "repository": "gillstrom/clean-query",
